@@ -1,0 +1,70 @@
+.heading{
+    font-size : 23px;
+    width:100%;
+    margin:0px;
+    box-shadow : 5px 5px 5px rgb(70, 70, 70);
+}
+
+.heading_div{
+    float:none;
+    background:white;
+    padding:10px;
+    border-radius:20px;
+    color : black;
+    box-shadow : 5px 5px 5px rgb(70, 70, 70);
+}
+
+.heading_div_2{
+    font-size : 18px;
+    animation-name : change_color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    color:white;
+    border:2px solid red;
+}
+
+@keyframes change_color{
+    to{border:7px solid rgb(255, 242, 0)};
+}
+
+.result_p_tag{
+    box-shadow: rgb(70, 70, 70);
+    font-size : 20px;
+}
+
+canvas{
+    border :5px solid red;
+    border-radius:20px;
+    box-shadow: 1px 1px 38px red;
+    margin-top:150px;
+    animation: mymove ;
+    animation-duration:3s;
+    animation-timing-function: ease;
+   animation-iteration-count: 1;
+}
+
+@keyframes mymove {
+    from {left: 0px; box-shadow: 1px 1px 38px red; border :5px solid red;}
+    to {left: 643px; box-shadow:1px 1px 38px yellow; border :5px solid yellow;}
+}
+
+.copy_right_footer{
+    position : fixed;
+    color:white;
+    bottom : 0;
+    width :100%;
+    background-color: rgb(106, 106, 106);
+    line-height:3;
+    text-align:center;
+}
+
+
+.btn-success{
+    position:fixed;
+    right:75;
+}
+
+.range{
+    position:fixed;
+    right:0;
+}
